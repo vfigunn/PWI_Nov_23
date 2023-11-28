@@ -1,0 +1,28 @@
+.contenedor {
+    background-color: lightblue;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.tarjeta{
+    width: 200px;
+    height: fit-content;
+    border: 2px solid violet;
+    background-color: pink;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    background-color: red;
+    width: 120px;
+}
