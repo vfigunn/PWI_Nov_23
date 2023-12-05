@@ -1,0 +1,38 @@
+.cont-padre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10 px;
+}
+
+.cubo {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.translate:hover {
+    transform: translate(-200px, 33px);
+    transition: transform 2s;
+}
+
+.rotate {
+    transform: rotate(-25deg);
+    transition: transform 5;
+}
+
+.rotate:active{
+    transform: rotate(360deg);
+}
+
+.scale {
+    background-color: gold;
+    transform: scale(0.5);
+}
+
+.skew {
+    transform: skew(20deg);
+}
