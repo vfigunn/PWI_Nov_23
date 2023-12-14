@@ -1,0 +1,17 @@
+.img-persona{
+    max-width: 300px !important;
+}
+
+:root {
+    --colorBlue: linear-gradient(180deg, var(--bgLightBlue)0%, #090979 80%);
+    --bgLightBlue: #5F9DF7;
+    --colorWhite: #F5F5F5;
+    --colorBlack: #000000;
+    --colordarkGrey: #5A5A5A;
+    --colorLightGrey: #F8F9Fa;
+    --colorMediumGray: #d5d5d5;
+}
+
+.viewWorkBtn{
+    background-color: black;
+}
