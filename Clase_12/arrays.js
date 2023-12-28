@@ -1,1 +1,2 @@
-let alumno="Juan Perez"
+let alumno="Juan Perez";
+
